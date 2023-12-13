@@ -1,0 +1,77 @@
+body{
+    margin: 3px;
+    background-color: #FFE4C4;
+
+}
+nav{
+    background-color: #E9967A;
+    padding:5px 10px 5px 10px;
+    display:flex;
+    justify-content: center;
+    top: 0;
+    cursor: pointer;
+
+}
+nav>a{
+    text-decoration: none;
+    color:#ffe6e6;
+    padding: 14px 16px;
+    /*border: 1px solid black;*/
+    text-align: center;
+    font-size: 20px;
+    font-style:italic;
+}
+nav>a:hover{
+    background-color: #A52A2A;
+    color: #ffe6e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav>form{
+    text-decoration: none;
+    color:#ffe6e6;
+    padding: 14px 16px;
+    /*border: 1px solid black;*/
+    text-align: center;
+    font-size: 20px;
+    font-style:italic;
+    border: none;
+}
+nav>form:hover{
+    background-color: #A52A2A;
+    color: #ffe6e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+.button{
+    font-family: cursive;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin-left: 10px;
+    background-color: #E9967A;
+    border: none;
+    padding: 12px 20px;
+
+}
+.tabel-produse{
+    border-collapse: collapse;
+    padding-left: 30%;
+    font-family: cursive;
+    font-size: 20px;
+   
+}
+th{
+    height: 50px;
+}
+tr:nth-child(even){background-color:#E9967A}
+th{
+    background-color:#E9967A;
+    color: brown;
+    font-size: 23px;
+    
+}
+.formular{
+    font-family: cursive;
+    font-size: 15px;
+}

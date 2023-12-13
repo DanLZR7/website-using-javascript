@@ -1,0 +1,27 @@
+[  
+  { "intrebare": "Care este cel mai bine vândut film din toate timpurile?",    
+    "variante": ["Avatar", "Titanic", "Jurassic Park", "Avengers: Endgame"],
+    "corect": 3
+  },
+  {
+    "intrebare": "Cine a regizat filmul The Godfather?",
+    "variante": ["Steven Spielberg", "Francis Ford Coppola", "Martin Scorsese", "Alfred Hitchcock"],
+    "corect": 1
+  },
+  {
+    "intrebare": "În ce film din seria James Bond apare actorul Pierce Brosnan în rolul agentului 007?",
+    "variante": ["GoldenEye", "Tomorrow Never Dies", "Die Another Day", "Casino Royale"],
+    "corect": 0
+  },
+  {
+    "intrebare": "Cate premiii Oscar  a câștigat filmul The Lord of the Rings: The Return of the King (Stăpânul inelelor: Întoarcerea regelui)?",
+    "variante": ["3", "6", "9", "12"],
+    "corect": 2
+  },
+  {
+    "intrebare": "În ce film a jucat Tom Hanks rolul principal al personajului Forrest Gump?",
+    "variante": ["The Terminal", "Cast Away", "Philadelphia", "Forrest Gump"],
+    "corect": 3
+  }
+ ]
+ 

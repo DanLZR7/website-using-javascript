@@ -1,0 +1,15 @@
+[   
+    {"utilizator":"emma",
+      "nume":"Popescu",
+      "prenume":"Ema",
+      "parola":"test",
+      "type":"user"
+    },
+    {
+        "utilizator":"dan",
+        "nume":"lazar",
+        "prenume":"dan",
+        "parola":"admin",
+        "type":"admin"
+    }
+]

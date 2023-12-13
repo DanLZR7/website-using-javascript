@@ -1,0 +1,45 @@
+<% if (u!=null) { %>
+    <p style="font-family: cursive;font-size:20px;margin-left:10px;">Bine ai venit, <i><b><%=u %>!</b></i></p>
+ <% } %> <br>
+ 
+ <form action="creare-bd" method="get">
+    <button class="button" type="submit"><i>Creare BD</i></button></form></br>
+ </form>
+ <form action="inserare-bd" method="get">
+    <button class="button" type="submit"><i>Încărcare BD</i></button>
+ </form></br>
+ <img src="/index.jpg" alt="index" width="300" height="350" style="float:left;border-radius: 30%;"></br></br></br>
+ </br></br></br>
+ <% if(produse){ %>
+ <div class="tabel-produse">
+    <table>
+       <tr>
+          <th>Id</th>
+          <th>nume Film</th>
+          <th>platforma</th>
+          <th>Preț</th>
+          <th></th>
+       </tr>
+       <tbody>
+          <% for(var i=0; i<produse.length;i++) { %>
+          <tr>
+             <td><%= produse[i].id %></td>
+             <td><%= produse[i].nume %></td>
+             <td><%= produse[i].platforma %></td>
+             <td><%= produse[i].pret %></td>
+             <td>
+                <% if(u!=null) { %>
+                <form action="/adaugare_cos/<%= produse[i].id %>" method="post">
+                   <!-- <input type="hidden" name="id" value="<%= produse[i].id %>"> -->
+                   <button class="button" type="submit" name="id" id="id" value="<%= produse[i].id %>">Adaugă</button>
+                </form>
+                <% } %>
+             </td>
+          </tr> 
+          <% } %>  
+       </tbody>
+    </table>
+ </div>
+ <% } %>
+ 
+ 

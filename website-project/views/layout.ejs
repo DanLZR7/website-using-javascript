@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <link rel="stylesheet" type="text/css" href="still.css" />
+    <meta charset="=utf-8">
+    <title>Filme</title>  
+  </head>
+  <body>
+    <header>
+	
+      <h1 id="header">Magazin de filme</h1>
+  </header>
+
+  
+    <nav> 
+      <a href="/">Acasă</a>
+      <a href="/chestionar">Chestionar</a>
+      <a href="/autentificare">Autentificare</a>
+      <a href="/admin">Admin</a>    
+      
+  </nav>
+  </div>
+
+  <main>
+  <% if(u){ %>
+      <a style="float: right; font-family: cursive;">Logat ca <%=u%>. </a>
+    <% } %> </br></br>
+    <form action="/delogare" method="get">
+        <button type="submit" style="border: none;font-style:italic;font-size:17px; color:black;font-weight: bold;background-color: #E9967A;font-family: cursive; text-align: center; float: right; margin-top: 3px;" >
+            Delogare</button>
+    </form>
+    <%- body -%>
+    <br/>
+</main>
+
+<footer id="footer">
+<p>&copy; Programare web  Lazar Dan 2023</p>   
+</footer>  
+</body>
+</html>
+
+
+
+
+ 

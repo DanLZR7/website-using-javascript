@@ -1,0 +1,16 @@
+<section>
+ <img src="/aut.jpg" alt="filme" width="230" height="300" style="float: right; border-radius: 50%;">
+    <% if(mesajEroare!="" ) { %>
+        <p style="color: red;font-weight: bold;font-family: cursive; margin-left: 10px;">
+            <%=mesajEroare%>
+        </p>
+        <%}%>
+            <form action="/verificare-autentificare" method="post">
+                <label for="id" style="font-family: cursive; margin-left: 10px;">Utilizator:</label>
+                <input type="text" id="user" name="user"><br><br>
+                <label for="pwd" style="font-family: cursive;margin-left: 10px;">Parolă:</label>
+                <input type="password" id="pwd" name="pwd"><br><br>
+                <button class="button" type="submit" >Autentificare</button>
+            </form>
+            
+</section>

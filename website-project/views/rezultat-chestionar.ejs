@@ -1,0 +1,13 @@
+<section>
+    <img src="/rez.jpg" alt="index" width="300" height="300" style="float:right;"> 
+    <h2 style="font-family: cursive; color:brown">Felicitări!</h2>
+    <% if( typeof count!=='undefined') {%>
+    <p style="font-family: cursive;font-size:18px">Ai raspuns corect la <b><%= count %></b> întrebări.</p>
+    <% } %>
+    <form action="/chestionar">
+        <button class="button" type="submit">Refă chestionarul</button>
+    </form><br>
+    <form action="/">
+        <button class="button" type="submit">Pagina principală</button>
+    </form><br>
+</section>
